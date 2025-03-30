@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250">
+  <rect width="400" height="250" fill="#1E1E2E" rx="10" ry="10"/>
+  
+  <text x="15" y="30" fill="#6272A4" font-family="monospace" font-size="14"># Importing ML libraries</text>
+  <text x="15" y="50" fill="#FF79C6" font-family="monospace" font-size="14">import</text>
+  <text x="75" y="50" fill="#F8F8F2" font-family="monospace" font-size="14">numpy as np</text>
+  <text x="15" y="70" fill="#FF79C6" font-family="monospace" font-size="14">import</text>
+  <text x="75" y="70" fill="#F8F8F2" font-family="monospace" font-size="14">pandas as pd</text>
+  
+  <text x="15" y="90" fill="#FF79C6" font-family="monospace" font-size="14">from</text>
+  <text x="60" y="90" fill="#F8F8F2" font-family="monospace" font-size="14">sklearn.model_selection import train_test_split</text>
+  
+  <text x="15" y="120" fill="#6272A4" font-family="monospace" font-size="14"># Creating ML model</text>
+  <text x="15" y="140" fill="#FF79C6" font-family="monospace" font-size="14">from</text>
+  <text x="60" y="140" fill="#F8F8F2" font-family="monospace" font-size="14">sklearn.ensemble import RandomForestClassifier</text>
+  
+  <text x="15" y="160" fill="#F8F8F2" font-family="monospace" font-size="14">model = RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42)</text>
+  
+  <text x="15" y="190" fill="#FF79C6" font-family="monospace" font-size="14">model.fit</text>
+  <text x="90" y="190" fill="#F8F8F2" font-family="monospace" font-size="14">(X_train, y_train)</text>
+  <text x="15" y="210" fill="#F8F8F2" font-family="monospace" font-size="14">predictions = model.predict(X_test)</text>
+</svg>
