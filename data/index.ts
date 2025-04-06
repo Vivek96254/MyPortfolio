@@ -84,7 +84,7 @@ export const projects = [
     display: "github.com",
     title: "Sentimental Analysis on Youtube Comments",
     des: "Analysis done one youtube comments to find overall response and sentiment to a particular video.",
-    img: "/p2.svg",
+    img: "/yt.svg",
     iconLists: ["/python.svg", "/huggingface.svg", "/nltk.png"],
     link: "https://github.com/Vivek96254/Youtube_Comments_Sentimental_Analysis",
   },
