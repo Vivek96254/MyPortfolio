@@ -77,7 +77,7 @@ export const projects = [
     des: "Make your resume upto market standards and prepare yourself for the interview as well.",
     img: "/skillscan1.png",
     iconLists: ["/re.svg", "/ts.svg", "/python.svg"],
-    link: "https://skill-scan-ats.vercel.app/",
+    link: "https://skill-scan-ats-mocha.vercel.app/",
   },
   {
     id: 2,
